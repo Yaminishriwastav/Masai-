@@ -1,4 +1,4 @@
-Closure Assignment Solutions
+ Closure Assignment Solutions
 This repository contains implementations for two closure-based tasks:
 
 1) Closure-Based Counter Implementation.
@@ -20,6 +20,7 @@ counter1.increment();  // Current count: 2
 
 const counter2 = createCounter();  // New closure, separate from counter1
 counter2.increment();  // Current count: 1
+
 Task 2: Bank Account Simulation
 We used closures to simulate private variables for balance and transactionHistory. These variables are not accessible from outside the function but can be updated through the returned methods.
 
